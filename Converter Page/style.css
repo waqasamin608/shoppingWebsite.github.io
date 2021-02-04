@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+    
+}
+body{
+    background-color: #E7E6FA ;
+}
+ul li{
+    list-style: none !important;
+}
+p{
+    color: black !important;
+}
+header{
+    background-color: #8b008b;
+}
+
+.container_One{
+    width: 100%;
+}
+.topNavBar{
+    background-color: #8b008b;
+}
+.topbarBtn a{
+    border: 1px solid;
+    background-color: #8b008b;
+    color: white;
+    border-radius: 18px;
+    padding: 5px 30px;
+    margin-left: 5px;
+
+}
+/* ::::::::::::::::::::::::::::::::::::::: Top Nav Bar Media Query :::::::::::::::::  */
+@media(max-width:330px){
+    .first_row{
+        display: flex !important;
+        justify-content: center !important;
+       
+    }
+    .topbarBtn a{
+       
+        margin-left: 0px;
+    
+    }
+}
+/* 2ND Menu Bar sTART  */
+
+#navbarSupportedContent li{
+    margin-right: 70px;
+    color:black !important;
+    }
+    #navbarSupportedContent{
+        margin-left: 7rem;
+    }
+    #navbarSupportedContent a{
+        color:black !important;
+        font-size: 17px;
+    }
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::     2Nd Menu Bar End  :::::::::::::::::::::::::::::: */
+/* For Search Bar */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+    padding-right: 2.375rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+@media(max-width:466px){
+    .has-search .form-control {
+       
+        width: 10rem;
+       
+    }
+    #hassearch .fa-sort-down  {
+    
+      display: none !important;
+    }
+}
+/* Section A Start */
+
+
+.sectionA_mainDiv{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 15px;
+    
+
+}
+.forheadingclr{
+    color: #8b008b ;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+.searching1{
+    position: relative;
+}
+
+#hassearch .fa-sort-down  {
+    position: absolute;
+    z-index: 2 ;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    left:17rem !important;
+    top: -0.2rem;
+}
+.Rewardfont{
+    font-weight: bold !important;
+}
+.child_2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+.forbgclr{
+    background-color: #8b008b;
+    color: white;
+}
+
+.noborder1{
+border: none !important;
+}
+
+.forstyling{
+    color: #8b008b;
+    font-weight: bold;
+}
+/* Section A End */
+
+/* Section B Start */
+#forshadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 10px;
+    width: 100% !important;
+}
+.forlisting5{
+    border: 1px solid black !important;
+    padding: 5px;
+    border-radius: 10px;
+}
+.forlisting5 ul{
+display: flex;
+justify-content: space-between;
+
+}
+.forlisting5 li:hover{
+    color: #8b008b;
+}
+.forcheckbox ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btnsub{
+    background-color: #8b008b;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 25px;
+}
+
+/* Section B End */
+
+ /* Footer Start */
+/* Footer */
+footer{
+    background-image: url(images/footer-rectangle.png);
+    
+   
+   
+}
+.For_Flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+.footer_divs{
+   
+    color: white !important;
+
+}
+.footer_divs a{
+    color: white !important;
+}
+
+.fa-twitter{
+    color: #00acee !important;
+  }
+  .fa-facebook-square{
+    color: #3b5998;
+   
+  }
+  .fa-youtube{
+    color: #FF0000; 
+  }

@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+    
+}
+body{
+    background-color: #E7E6FA ;
+}
+ul li{
+    list-style: none !important;
+}
+p{
+    color: black !important;
+}
+header{
+    background-color: #8b008b;
+}
+
+.container_One{
+    width: 100%;
+}
+.topNavBar{
+    background-color: #8b008b;
+}
+.topbarBtn a{
+    border: 1px solid;
+    background-color: #8b008b;
+    color: white;
+    border-radius: 18px;
+    padding: 5px 30px;
+    margin-left: 5px;
+
+}
+/* ::::::::::::::::::::::::::::::::::::::: Top Nav Bar Media Query :::::::::::::::::  */
+@media(max-width:330px){
+    .first_row{
+        display: flex !important;
+        justify-content: center !important;
+       
+    }
+    .topbarBtn a{
+       
+        margin-left: 0px;
+    
+    }
+}
+/* 2ND Menu Bar sTART  */
+
+#navbarSupportedContent li{
+    margin-right: 70px;
+    color:black !important;
+    }
+    #navbarSupportedContent{
+        margin-left: 7rem;
+    }
+    #navbarSupportedContent a{
+        color:black !important;
+        font-size: 17px;
+    }
+    /* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::     2Nd Menu Bar End  :::::::::::::::::::::::::::::: */
+
+#Container_two{
+    width: 100%;
+    display: flex;
+}
+
+
+/* First card Start */
+.heading_txt{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 0.1px solid black;
+}
+.For_First_Star{
+    color: #8b008b;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fas fa-star{
+    background-color: #8b008b !important;
+    
+}
+.main_paragraph{
+    padding: 10px;
+}
+.top_img_sizing{
+    padding: 10px;
+}
+.backgroundimgs_1{
+   
+    background-image: url(images/img-light-opacity.png), url(images/nike1.png) ;
+    padding: 10px;
+
+}
+
+.box{
+    max-width: 10rem;
+    max-height: 8rem;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.firs_cashBack_btn{
+    padding: 20px 10px ;
+    
+}
+.firs_cashBack_btn a{
+    background-color: #8b008b;
+    color: white;
+    padding: 8px 35px;
+    border-radius: 20px;
+    float: right;
+}
+/* ::::::::::::::::::::::::::  Second card Start :::::::: */
+
+.heading_text_2{
+    border-bottom: 0.1px solid black;
+}
+.heading_text_2 h4{
+    color: #8b008b;
+    padding: 8px 20px;
+}
+.first_products_offers ul{
+    display: flex;
+    padding: 10px 15px;
+
+   
+}
+.offers_first{
+    justify-content: space-between;
+  
+}
+.offers_first li{  
+    width: 32%;
+}
+.forclr{
+    color: #8b008b;
+    font-weight: bold;
+    
+}
+li{
+    list-style: none !important;
+}
+/* :::::::::::::::::::::: Second card End :::::::::: */
+
+/* ::::::::::::::: Two slider card start ::::::::::::: */
+
+.heading_text_3{
+    padding: 10px;
+    margin-top: 10px;
+}
+.for_mini_slider_card{
+    display: flex;
+    padding: 10px;
+}
+.ads_slider_img{
+    width: 100% !important;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    
+}
+.ads_slider_img img{  
+   margin: auto auto;
+}
+.for_mini_slider_card_text{
+    margin-left: 10px;
+}
+.Coupn_code span{
+    color: #8b008b;
+}
+
+.fa-chevron-circle-right{
+    float: right;
+    margin-right: 10px;
+    color: #8b008b;
+}
+/* :::::::::::::::: Two slider card End ::::::: */
+.heading_text_4{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Last Section */
+
+.first_para{
+    padding: 10px;
+}
+.para_one{
+    margin-top: -10px;
+    padding-top: 0px;
+}
+
+
+
+/* <!-- :::::::::::::::::::::::::::::::::::::::::  <aside> Bar Start ::::::::::::::: --> */
+
+aside{
+    flex: 0 0 35% ;
+    
+    margin-left: 35px;
+
+}
+/* @media(max-width:992px){
+   
+    aside{
+      
+        
+    
+    }
+    .aside_first_img img{
+       margin: auto auto;
+    }
+} */
+.aside_first_img{
+    padding: 10px;
+
+}
+.aside_first_img img{
+    width: 23rem;
+    height: 25rem;
+}
+/* For Cash Back Section */
+
+.cashBack_side{
+    padding: 10px;
+    color: #8b008b;
+    font-weight: bold;
+}
+.reviews_side{
+    padding: 0px 10px 15px;
+    
+}
+.reviews_side h4{
+    color: #8b008b;
+    font-weight: bold;
+}
+
+.checked{
+    color: #8b008b;
+
+  }
+/* Side three column start */
+.side_three_column{
+    padding: 10px;
+}
+.firstboxOfThreeColum{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+.firstboxOfThreeColum h4{
+    text-align: left;
+    padding: 3px 10px 0px 10px;
+}
+.item{
+    display: flex;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+
+.item img{
+    width: 80px;
+    height: auto;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+}
+.imgs{
+    width: 150px;
+    height: 70px;
+    margin-right: 10px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: #E7E6FA;
+   
+}
+.For_text{
+    margin: 0px;
+    float: left;
+    text-align: left;
+}
+.For_text p{
+    margin: 2px;
+    line-height: 1em;
+}
+.item3{
+    padding-bottom: 10px;
+}
+/* :::::::::::::::::::::::::::::::::: Side three column End :::::::::::::::::::: */
+
+/* for Social Media card */
+.socialicons{
+    padding: 10px;
+}
+.fortextclr{
+    color: #8b008b;
+    font-weight: bold;
+}
+
+.btn-block {
+    background-color: whitesmoke;
+    color: #3b5998 !important;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.forfb{
+    color: #3b5998 !important ;
+}
+
+/* Footer Start */
+/* Footer */
+footer{
+    background-image: url(images/footer-rectangle.png);
+    
+   
+   
+}
+.For_Flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+.footer_divs{
+   
+    color: white !important;
+
+}
+.footer_divs a{
+    color: white !important;
+}
+
+.fa-twitter{
+    color: #00acee !important;
+  }
+  .fa-facebook-square{
+    color: #3b5998;
+   
+  }
+  .fa-youtube{
+    color: #FF0000; 
+  }
+/* Media Query Start */
+
+@media(max-width:992px){
+    #Container_two{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    aside{
+        
+    
+        margin-left: 0px !important;
+        margin-top: 10px;
+       
+    
+    }
+    .aside_first_img img{
+        padding: 10px !important;
+
+    }
+}
+@media(max-width:424px){
+    .aside_first_img img{
+        width: 20rem;
+        height: 20rem;
+        padding: 20px !important;
+    }
+    .aside_first_img{
+        padding: 0px !important;
+    
+    }
+}
+@media(max-width:355px){
+    .aside_first_img img{
+        width: 19rem;
+        height: 19rem;
+        padding: 20px !important;
+    }
+    .aside_first_img{
+        padding: 0px !important;
+    
+    }
+}
+
+
+
+
+
+
+
